@@ -1,0 +1,43 @@
+{
+  "unit_tests": {
+    "passed": 16,
+    "failed": 0
+  },
+  "environment": "Python 3.12, PyTorch 2.15.0, CPU",
+  "real_data_smoke": {
+    "train_windows": 2048,
+    "validation_windows": 512,
+    "complete_epochs": 2,
+    "test_evaluated": false
+  },
+  "encoders": {
+    "gru": {
+      "parameters": 80449,
+      "encoder_parameters": 13440,
+      "forward_backward": "PASS",
+      "complete_epochs": 2,
+      "checkpoint_reload": "PASS",
+      "shared_validation_cli": "PASS"
+    },
+    "lstm": {
+      "parameters": 84929,
+      "encoder_parameters": 17920,
+      "forward_backward": "PASS",
+      "complete_epochs": 2,
+      "checkpoint_reload": "PASS",
+      "shared_validation_cli": "PASS"
+    },
+    "transformer": {
+      "parameters": 134401,
+      "encoder_parameters": 67392,
+      "forward_backward": "PASS",
+      "complete_epochs": 2,
+      "checkpoint_reload": "PASS",
+      "shared_validation_cli": "PASS"
+    }
+  },
+  "same_non_motion_initial_weights": "PASS",
+  "portable_cache_fingerprint": "PASS",
+  "legacy_trained_gru_predictions": "PASS",
+  "note": "Smoke checks verify execution, not comparative model accuracy."
+}
