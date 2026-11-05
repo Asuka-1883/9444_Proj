@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+# Local data and generated artifacts
+Annotation/
+Frame/
+cvpr2015_pedestrianWalkingPathDataset/
+data/
+datasets/
+work/
+runs/
+preview/
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.zip
+# Machine-local files and credentials
+.DS_Store
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
