@@ -50,7 +50,8 @@ python team_train.py --root "DATASET_ROOT" --encoder transformer --cache-dir wor
 
 ## 协作
 
-私有仓库需由仓库所有者邀请组员的 GitHub 账号后才能访问。
+仓库已公开，组员可以直接查看或克隆，无需先接受邀请。
+要将分支直接推送到本仓库，仍需协作者权限；不想配置邀请时，可以先 Fork 到自己的账号，在 Fork 中开发，再向本仓库提交 Pull Request。
 参考 [CONTRIBUTING.md](CONTRIBUTING.md) 创建自己的模型分支并提交 Pull Request。
 
 使用数据集时请引用：Shuai Yi, Hongsheng Li, Xiaogang Wang. *Understanding Pedestrian Behaviors from Stationary Crowd Groups*, CVPR 2015。
