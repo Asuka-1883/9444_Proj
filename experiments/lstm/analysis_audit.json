@@ -1,0 +1,22 @@
+{
+  "eight_expected_runs": true,
+  "same_data_protocol": true,
+  "same_train_windows": true,
+  "same_validation_windows": true,
+  "all_full_training_and_validation": true,
+  "all_runs_cpu_torch_2_15": true,
+  "all_logs_report_test_not_evaluated": true,
+  "recorded_protocol_hashes_match": true,
+  "all_trace_lengths_match": true,
+  "every_epoch_visits_all_training_windows": true,
+  "best_epochs_match_recorded_selection_rule": true,
+  "saved_metrics_match_best_epoch": true,
+  "seed_names_match_recorded_seeds": true,
+  "baseline_repeats_change_only_seed": true,
+  "layers2_nodrop_repeats_change_only_seed": true,
+  "learning_rate_screen_changes_only_learning_rate": true,
+  "dropout_screen_changes_only_encoder_dropout": true,
+  "lstm_parameter_counts_match_architecture": true,
+  "same_number_of_shared_parameters": true,
+  "uploaded_python_sources_parse": true
+}

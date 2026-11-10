@@ -1,0 +1,18 @@
+{
+  "baseline_seed42": {
+    "learning_rate": 0.001,
+    "best_epoch": 13,
+    "ADE_px": 20.0434,
+    "FDE_px": 34.6046,
+    "turning_ADE_px": 31.3567,
+    "selection_score": 29.4504
+  },
+  "lr0005_seed42": {
+    "learning_rate": 0.0005,
+    "best_epoch": 16,
+    "ADE_px": 20.3101,
+    "FDE_px": 35.2022,
+    "turning_ADE_px": 31.6838,
+    "selection_score": 29.8152
+  }
+}

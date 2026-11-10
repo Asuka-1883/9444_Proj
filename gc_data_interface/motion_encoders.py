@@ -2,17 +2,9 @@
 import math
 import torch
 from torch import nn
+from lstm_encoder import LSTMMotionEncoder
 
 
-class LSTMMotionEncoder(nn.Module):
-    def __init__(self,hidden_size=64,layers=1,dropout=.1):
-        super().__init__()
-        self.rnn=nn.LSTM(4,hidden_size,num_layers=layers,batch_first=True,
-                         dropout=dropout if layers>1 else 0.)
-
-    def forward(self,x):
-        sequence,(hidden,_cell)=self.rnn(x)
-        return sequence,hidden
 
 
 class TransformerMotionEncoder(nn.Module):

@@ -1,0 +1,44 @@
+{
+  "record_checks_passed": 20,
+  "notebook_execution": {
+    "LSTM_Analysis_EN.ipynb": {
+      "executed_code_cells": 11,
+      "figure_outputs": 5
+    },
+    "LSTM_Analysis_CN.ipynb": {
+      "executed_code_cells": 11,
+      "figure_outputs": 5
+    }
+  },
+  "execution_method": "Real IPython cells executed in-process; no network kernel",
+  "statistics_checked_independently_with_numpy": true,
+  "eight_raw_training_logs_preserved_byte_for_byte": true,
+  "uploaded_python_sources_preserved_byte_for_byte": true,
+  "figure_png_dimensions": {
+    "01_seed42_learning_curves.png": [
+      2489,
+      927
+    ],
+    "02_repeated_learning_curves.png": [
+      2489,
+      927
+    ],
+    "03_best_checkpoint_metrics.png": [
+      2489,
+      905
+    ],
+    "04_size_and_logged_time.png": [
+      2401,
+      905
+    ],
+    "05_final_test_results.png": [
+      2401,
+      1565
+    ]
+  },
+  "training_rerun_by_analysis": false,
+  "final_test_scores_present": true,
+  "final_test_record_checks_passed": 6,
+  "three_raw_test_logs_preserved_byte_for_byte": true,
+  "final_test_statistics_checked_independently_with_numpy": true
+}

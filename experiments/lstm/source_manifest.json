@@ -1,0 +1,22 @@
+{
+  "original_training_logs": "User-provided lstm_results_for_analysis.zip",
+  "shared_repository_reference": "Asuka-1883/9444_Proj",
+  "shared_reference_commit": "290f214eb6938969fa77c9b70efed6355be73873",
+  "scope_note": "Only the two uploaded encoder files were provided as current source. Other shared-code descriptions refer to the inspected repository commit.",
+  "files_sha256": {
+    "baseline_seed42/result.json": "2c42e7421fbe63a74e3f56d51506806402eab5665b7febe3d358aa5d86b5ec67",
+    "baseline_seed43/result.json": "5b588bbea30a0e060c470606b7b9e6c3d9273771647ca316816ab93f2fbb9825",
+    "baseline_seed44/result.json": "dfdf6b66f7bdbad88818f5bf4f5c8ff2196c49db4c0882d702a27de165968542",
+    "lr0005_seed42/result.json": "424250e93f4e642893dd7a009c2a5b7f69761afbf2e5b6e5d35dfa574806df75",
+    "layers2_nodrop_seed42/result.json": "cc4f02fad242607c68e3e233b9dabcd9e647055450656016ac2fff772e54681b",
+    "layers2_nodrop_seed43/result.json": "8dddc88bdbad3244fb52e22c9225878435acd0ff0f2a230c2b87e41f452985e5",
+    "layers2_nodrop_seed44/result.json": "84762a171cfd4a19588314865680f690c6e3eed43cbde46e1718f3743ce299f9",
+    "layers2_drop01_seed42/result.json": "96a24633ef67808f1a216af66e9912645ceda9a96cea8a56e64e42dc2b80de7a",
+    "gc_data_interface/lstm_encoder.py": "538b4c40b7117df3b1efe9d9dda53604bfe1287b8c6539e278c2a5f7c219e869",
+    "gc_data_interface/motion_encoders.py": "93db9ad9211313249d13cb296d29d50a00a57bb9e08ae85b8e83837e2e096057",
+    "baseline_seed42/test.json": "8fd8e0694bb09604b40293fbb8e595f85a7ea07a7b85234fa2560e872e8c8823",
+    "baseline_seed43/test.json": "0d714fb56787e2d530fc23d536ee8ab2a4ad0ec7e28ce2ffaedc273432391326",
+    "baseline_seed44/test.json": "99a83f404ff03b44a484b5f7209a129be9a36663721fc0c4a48466c8c0ee0e36"
+  },
+  "original_final_test_logs": "User-provided lstm_final_test_results.zip"
+}
