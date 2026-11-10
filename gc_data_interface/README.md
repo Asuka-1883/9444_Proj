@@ -117,6 +117,24 @@ obs/neighbors 的 delta 是相邻采样时刻的位置差，不是除以时间�
 - 原图外侧黑色填充。未执行 ImageNet 均值/标准差归一化；CNN 组员根据权重要求执行一次。
 - 本接口未对像素坐标做米制标定，ADE/FDE 应报告为像素；不能直接套用 0.2 米碰撞阈值。
 
+### 读取与轨迹对齐的历史原图
+
+在 `gc_data_interface/` 目录使用 `read_history_images(store, sample)`。
+函数按 `obs_frame_ids` 的顺序读取原图，每张图对应 `sample['obs']` 中同一时刻的位置。
+
+```python
+from gc_dataset import GCStore, GCDataset
+from gc_frames import read_history_images
+
+store = GCStore('DATASET_ROOT')
+dataset = GCDataset(store, 'train', include_image=False)
+sample = dataset[0]
+history_images = read_history_images(store, sample)  # [5, 1080, 1920, 3]
+```
+
+`history_images` 是原尺寸 RGB `uint8` 数组。默认取 5 帧，形状为 `[T,H,W,3]`。
+图像缩放、归一化和批处理在模型侧处理。若使用像素坐标和图片对齐，缩放图像时也要同步变换坐标。
+
 ## 6. 预测还原与评估
 
 单样本 NumPy：

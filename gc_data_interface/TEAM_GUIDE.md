@@ -78,6 +78,8 @@ python team_train.py --root "DATASET_ROOT" --encoder transformer --cache-dir wor
 
 统一比较入口采用位置＋邻居＋共享解码器，未加入场景 CNN。
 原始图像接口与已有场景模型仍可使用；后续 CNN 对照应对三种编码器添加相同图像分支。
+模型需要 5 张与历史轨迹对齐的原图时，可调用 `read_history_images(store, sample)`。
+调用方法见 [历史原图读取示例](README.md#读取与轨迹对齐的历史原图)。
 
 当前编码器默认设置（都输出 64 维特征）：
 
