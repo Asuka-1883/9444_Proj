@@ -1,0 +1,35 @@
+{
+  "baseline_seed42": {
+    "layers": 1,
+    "learning_rate": 0.001,
+    "effective_dropout": 0.0,
+    "best_epoch": 13,
+    "parameters": 84929,
+    "ADE_px": 20.0434,
+    "FDE_px": 34.6046,
+    "turning_ADE_px": 31.3567,
+    "selection_score": 29.4504
+  },
+  "lr0005_seed42": {
+    "layers": 1,
+    "learning_rate": 0.0005,
+    "effective_dropout": 0.0,
+    "best_epoch": 16,
+    "parameters": 84929,
+    "ADE_px": 20.3101,
+    "FDE_px": 35.2022,
+    "turning_ADE_px": 31.6838,
+    "selection_score": 29.8152
+  },
+  "layers2_nodrop_seed42": {
+    "layers": 2,
+    "learning_rate": 0.001,
+    "effective_dropout": 0.0,
+    "best_epoch": 16,
+    "parameters": 118209,
+    "ADE_px": 20.0331,
+    "FDE_px": 34.5757,
+    "turning_ADE_px": 31.324,
+    "selection_score": 29.4303
+  }
+}

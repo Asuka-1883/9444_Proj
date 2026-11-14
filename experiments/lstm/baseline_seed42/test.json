@@ -1,0 +1,15 @@
+{
+  "encoder": "lstm",
+  "split": "test",
+  "limit": null,
+  "protocol_signature": "543ceabf55fc5217084e097c9ca67a0d82cf1e29583e35b1afe791994f26af27",
+  "data_fingerprint": "ac4131bbebae8a1e83e9cde0a5272c4744c79524a31b4b91d94618cb6761fc7c",
+  "metrics": {
+    "samples": 45454,
+    "ade_px": 21.644197463989258,
+    "fde_px": 37.45652770996094,
+    "turn_samples": 8309,
+    "turn_ade_px": 31.99753761291504,
+    "turn_fde_px": 61.274959564208984
+  }
+}
